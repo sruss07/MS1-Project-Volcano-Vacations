@@ -1,13 +1,13 @@
 
 .body-bg-color {
-    background-color: #F3F0EE;
+    background-color: rgb(202, 195, 190);
 }
 
 /* ----------------------------------------Navigation Bar */
 
 .navbar {
     background: #2F2D2E;
-    width: 100%;
+    width: 1440px;
     margin: 0 auto;
     height: 70px;
 }
@@ -28,6 +28,10 @@
     color: #B02841;
 }
 
+.nav-link:hover {
+    color: #DD5B04;
+}
+
 .navbar-nav {
     position: absolute;
     right: 10px;
@@ -35,3 +39,26 @@
 
 
 /* ----------------------------------------Navigation Bar */
+
+/* ----------------------------------------Home Page Pics */
+
+.home-page-pictures {
+   
+    height: 350px;
+    width: 450px;
+    border-radius: 25px;
+    background-color: rgba(148, 141, 118, 0.212);
+    margin-left: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+/* ----------------------------------------Home Page Pics */

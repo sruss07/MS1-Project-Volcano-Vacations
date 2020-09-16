@@ -1,18 +1,37 @@
-body {
-    margin: 0;
+
+.body-bg-color {
+    background-color: #F3F0EE;
+}
+
+/* ----------------------------------------Navigation Bar */
+
+.navbar {
     background: #2F2D2E;
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.navbar-title {
+    font-family: Saira, sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: #B02841;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link {
     font-family: Saira, sans-serif;
     font-weight: 400;
-    text-transform: uppercase;
+    font-size: 18px;
     color: #B02841;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.navbar-nav {
+    position: absolute;
+    right: 10px;
 }
 
-h1 {
-  
-    
-}
+
+/* ----------------------------------------Navigation Bar */

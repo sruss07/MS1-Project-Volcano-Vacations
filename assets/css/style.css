@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-/*----------------------------------------Header Bar*/
+/*----------------------------------------Header Section*/
 
 .navbar {
     align-items: center;
@@ -108,4 +108,23 @@ body {
     }
 }
 
-/*----------------------------------------Header Bar*/
+/*----------------------------------------Header Section*/
+
+/*----------------------------------------Footer Section*/
+
+.container-fluid {
+    height: 70px;
+    background-color: #2f2d2e;
+}
+
+.footer-items {
+    text-align: center;
+}
+
+.footer-items li {
+    display: inline;
+}
+
+
+
+/*----------------------------------------Footer Section*/

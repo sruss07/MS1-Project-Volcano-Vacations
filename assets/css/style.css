@@ -110,6 +110,23 @@ body {
 
 /*----------------------------------------Header Section*/
 
+/*----------------------------------------Home page text*/
+
+.intro-text {
+    font-family: Saira, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2F2D2E;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 1035px;
+    height: 300px;
+}
+
+/*----------------------------------------Home page text*/
+
 /*----------------------------------------Footer Section*/
 
 footer {

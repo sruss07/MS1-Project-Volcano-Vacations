@@ -110,6 +110,14 @@ body {
 
 /*----------------------------------------Header Section*/
 
+/*----------------------------------------Home page photos*/
+
+.home-page-photo {
+
+}
+
+/*----------------------------------------Home page photos*/
+
 /*----------------------------------------Home page text*/
 
 .intro-text {
@@ -118,11 +126,13 @@ body {
     font-weight: 400;
     color: #2F2D2E;
     text-align: center;
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 1035px;
+    margin: auto;
+    width: 900px;
     height: 300px;
+}
+
+.intro-text p {
+    margin: 10px;
 }
 
 /*----------------------------------------Home page text*/
@@ -130,7 +140,7 @@ body {
 /*----------------------------------------Footer Section*/
 
 footer {
-    min-height: 70px;
+    height: 70px;
     background-color: #2f2d2e;
     margin: 0;
 }
@@ -143,6 +153,82 @@ footer {
     display: inline;
 }
 
+.container-fluid {
+    position: absolute;
+    bottom: 0;
+}
 
+.social-network-icons {
+    text-align: center;
+}
+
+.social-network-icons li {
+    display: inline;
+}
+
+.social-network-icons i {
+    font-size: 150%;
+    margin: 15px;
+    padding: 10px;
+    color: #b02841;
+}
 
 /*----------------------------------------Footer Section*/
+
+/*----------------------------------------Home page*/
+
+
+/*----------------------------------------Home page*/
+
+/*----------------------------------------Destinations page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+/*----------------------------------------Destinations page*/
+
+/*----------------------------------------Tours page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+/*----------------------------------------Tours page*/
+
+/*----------------------------------------Gallery page*/
+
+.container {
+    font-family: Saira, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+/*----------------------------------------Gallery page*/
+
+/*----------------------------------------Contact page*/
+
+
+/*----------------------------------------Contact page*/

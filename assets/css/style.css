@@ -110,33 +110,6 @@ body {
 
 /*----------------------------------------Header Section*/
 
-/*----------------------------------------Home page photos*/
-
-.home-page-photo {
-
-}
-
-/*----------------------------------------Home page photos*/
-
-/*----------------------------------------Home page text*/
-
-.intro-text {
-    font-family: Saira, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #2F2D2E;
-    text-align: center;
-    margin: auto;
-    width: 900px;
-    height: 300px;
-}
-
-.intro-text p {
-    margin: 10px;
-}
-
-/*----------------------------------------Home page text*/
-
 /*----------------------------------------Footer Section*/
 
 footer {
@@ -177,6 +150,24 @@ footer {
 
 /*----------------------------------------Home page*/
 
+.intro-text {
+    font-family: Saira, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+}
+
+.intro-text p {
+    margin: 10px;
+}
+
+.home-page-photo {
+
+}
 
 /*----------------------------------------Home page*/
 

@@ -167,6 +167,27 @@ footer {
 
 /*----------------------------------------Home page text*/
 
+/*----------------------------------------Home page photos*/
+
+.row {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column-home-page-photos {
+    flex: 25%;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+
+/*----------------------------------------Home page photos*/
+
 /*----------------------------------------Destinations page*/
 
 .container {

@@ -75,12 +75,6 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
-    .navbar {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
     .toggle-button {
         display: flex;
     }
@@ -106,9 +100,53 @@ body {
     .navbar-link.active {
         display: flex;
     }
-}
+
 
 /*----------------------------------------Header Section*/
+
+/*----------------------------------------Home page text*/
+
+.intro-text {
+    font-family: Saira, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    width: 900px;
+    height: 300px;
+}
+
+.intro-text p {
+    margin: 10px;
+}
+
+/*----------------------------------------Home page text*/
+
+/*----------------------------------------Home page photos*/
+
+.row {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column-home-page-photos {
+    flex: 25%;
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+/*----------------------------------------Home page photos*/
 
 /*----------------------------------------Footer Section*/
 
@@ -148,46 +186,6 @@ footer {
 
 /*----------------------------------------Footer Section*/
 
-/*----------------------------------------Home page text*/
-
-.intro-text {
-    font-family: Saira, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: #2F2D2E;
-    text-align: center;
-    margin: auto;
-    width: 900px;
-    height: 300px;
-}
-
-.intro-text p {
-    margin: 10px;
-}
-
-/*----------------------------------------Home page text*/
-
-/*----------------------------------------Home page photos*/
-
-.row {
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.column-home-page-photos {
-    flex: 25%;
-    padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 20px;
-}
-
-
-/*----------------------------------------Home page photos*/
-
 /*----------------------------------------Destinations page*/
 
 .container {
@@ -255,3 +253,13 @@ footer {
 }
 
 /*----------------------------------------Contact page*/
+
+/*----------------------------------------Media queries*/
+
+@media (max-width: 600px) {
+    .navbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+/*----------------------------------------Media queries*/

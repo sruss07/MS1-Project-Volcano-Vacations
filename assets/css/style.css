@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     color: #b02841;
     font-family: Saira, sans-serif;
     font-size: 36px;
@@ -35,8 +35,8 @@ body {
     font-weight: 400;
 }
 
-.nav-link li:hover {
-   background-color: #E5E5E5;
+.navbar .navbar-nav .nav-link:hover {
+   background-color: rgba(229, 229, 229, 0.13);
 }
 
 
@@ -177,11 +177,17 @@ footer {
 
 /*----------------------------------------Contact page*/
 
+.contact-form{
+	background:rgba(0,0,0, .6);
+	color:rgb(211, 127, 127);
+	margin-top: 100px;
+	padding: 20px;
+}
+
 .container {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
-    color: #2F2D2E;
     text-align: center;
     margin: auto;
     width: 250px;
@@ -189,6 +195,8 @@ footer {
     text-transform: uppercase;
     padding: 5px;
 }
+
+
 
 /*----------------------------------------Contact page*/
 

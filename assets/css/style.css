@@ -20,35 +20,6 @@ body {
     justify-content: space-between;
 }
 
-.navbar-link {
-    height: 100%;
-}
-
-.navbar-link ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-link li {
-   list-style: none;
-}
-
-.navbar-link li:hover {
-   background-color: #E5E5E5;
-}
-
-.navbar-link li a {
-   display: block;
-   color: #b02841;
-   padding: 10px;
-   text-decoration: none;
-   font-family: Saira, sans-serif;
-   font-size: 20px;
-   font-weight: 400;
-   text-transform: none;
-}
-
 .navbar-brand {
     color: #b02841;
     font-family: Saira, sans-serif;
@@ -57,49 +28,16 @@ body {
     text-transform: uppercase;
 }
 
-.toggle-button {
-    height: 30px;
-    width: 45px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.navbar .navbar-nav .nav-link {
+    color: #b02841;
+    font-family: Saira, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.toggle-button .bar {
-    background-color: #b02841;
-    height: 5px;
-    width: 100%;
-    border-radius: 10px;
+.nav-link li:hover {
+   background-color: #E5E5E5;
 }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-link {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-link ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-link ul li {
-        text-align: center;
-    }
-
-    .navbar-link ul li a {
-        padding: 5px 2px;
-    }
-
-    .navbar-link.active {
-        display: flex;
-    }
 
 
 /*----------------------------------------Header Section*/

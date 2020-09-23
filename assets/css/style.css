@@ -94,6 +94,14 @@ footer {
     margin: 0;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .footer-items {
     text-align: center;
 }
@@ -188,6 +196,7 @@ footer {
     font-family: Saira, sans-serif;
     font-size: 22px;
     font-weight: 500;
+    color: #2F2D2E;
     text-align: center;
     margin: auto;
     width: 250px;

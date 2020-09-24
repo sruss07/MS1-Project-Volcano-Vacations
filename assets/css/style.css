@@ -10,6 +10,7 @@ body {
     background-color: #F3F0EE;
 }
 
+
 /*----------------------------------------Header Section*/
 
 .navbar {
@@ -19,6 +20,7 @@ body {
     display: flex;
     position: relative;
     justify-content: space-between;
+    width: 100%;
 }
 
 .navbar .navbar-brand {
@@ -45,19 +47,17 @@ body {
 
 /*----------------------------------------Home page text*/
 
-.intro-text {
+.home-page-intro-text {
     font-family: Saira, sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #2F2D2E;
     text-align: center;
     margin: auto;
-    width: 900px;
+    width: 1065px;
     height: 300px;
-}
-
-.intro-text p {
-    margin: 10px;
+    line-height: 1.25em;
+    margin-bottom: 20px;
 }
 
 /*----------------------------------------Home page text*/
@@ -186,20 +186,6 @@ footer {
 
 /*----------------------------------------Contact page*/
 
-.contact-form{
-	background: #F3F0EE;
-	color: #2F2D2E;
-    font-family: Saira, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin: auto;
-    text-transform: uppercase;
-    max-width: 700px;
-    max-height: 780px;
-    display: block;
-    
-}
-
 .container {
     font-family: Saira, sans-serif;
     font-size: 22px;
@@ -213,9 +199,63 @@ footer {
     padding: 5px;
 }
 
+.contact-form{
+	background: #F3F0EE;
+    font-family: Saira, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    text-transform: uppercase;
+    max-width: 500px;
+    max-height: 780px;
+    display: block;
+    border: 2px solid #b02841;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.contact-form-intro-text {
+    font-family: Saira, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2F2D2E;
+    text-align: center;
+    margin: auto;
+    text-transform: none;
+}
+
 label {
     width: 150px;
     display: inline-block;
+}
+
+.sign-up-button {
+    color: #F3F0EE;
+    background-color: #b02841;
+    text-transform: uppercase;
+    width: 200px;
+    margin-left: 155px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+input {
+    background-color: #b02841;
+    color: #F3F0EE;
+    border-radius: 20px;
+}
+
+textarea {
+    background-color: #b02841;
+    color: #F3F0EE;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: #F3F0EE;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 10px;
 }
 
 /*----------------------------------------Contact page*/

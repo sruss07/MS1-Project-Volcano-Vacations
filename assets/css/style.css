@@ -45,6 +45,52 @@ body {
 
 /*----------------------------------------Header Section*/
 
+/*----------------------------------------Home page photos*/
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 300px ;
+    grid-template-columns: 450px 450px 450px;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+  }
+
+.picture-01 img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    padding-top: 15px;
+  }
+
+  .picture-02 img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    padding-top: 15px;
+  }
+
+  .picture-03 img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    padding-top: 15px;
+  }
+
+  .picture-01 {
+      background-color: lightblue;
+  }
+
+  .picture-02 {
+      background-color: lightgray;
+  }
+
+  .picture-03 {
+      background-color: lightseagreen
+  }
+
+/*----------------------------------------Home page photos*/
+
 /*----------------------------------------Home page text*/
 
 .home-page-intro-text {
@@ -58,34 +104,10 @@ body {
     height: 300px;
     line-height: 1.25em;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 /*----------------------------------------Home page text*/
-
-/*----------------------------------------Home page photos*/
-
-.row {
-    display: flex;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.column-home-page-photos {
-    flex: 25%;
-    padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-radius: 20px;
-}
-
-.responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-/*----------------------------------------Home page photos*/
 
 /*----------------------------------------Footer Section*/
 
